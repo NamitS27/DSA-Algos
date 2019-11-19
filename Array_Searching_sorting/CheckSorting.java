@@ -34,9 +34,9 @@ class CheckSorting{  // Question 8
     LOOP INVARIANT : For an index j , the array before that index is sorted.
                 --> Before the first execution we consider the a single element is always sorted
                     which is always true
-                --> Whenever the next element is greater than current element then the 
+                --> Whenever the next element is less than current element then the 
                     loop will break stating that array is not sorted... if the loop doesn't break 
-                    and runs this size(arr)-1 then it means that no next element is greater than
+                    and runs this size(arr)-1 then it means that no next element is less than
                     current element stating that the array is sorted.
                 --> Hence the array is sorted and the correctness of algorithm is proved.
 */

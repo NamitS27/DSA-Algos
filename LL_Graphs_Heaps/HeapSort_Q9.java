@@ -11,6 +11,7 @@ class Heap{
     int arrLen;
 
     Heap(int givArr[]){
+        arr = new int[givArr.length];
         arr = givArr;
         heapSize = givArr.length;
         arrLen = givArr.length;
